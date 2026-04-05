@@ -22,6 +22,14 @@ app.use("/api/records", recordRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/audit-logs", auditRoutes);
 
+
+
+app.get("/", (req, res) => {
+  res.send("Zorvyn API is running 🚀");
+});
+
+
+
 app.use((req, res) => {
   res.status(404).json({ message: "Not found" });
 });
