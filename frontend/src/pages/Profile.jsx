@@ -64,7 +64,6 @@ export default function Profile() {
     return () => {
       cancelled = true;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- sync profile on mount only
   }, []);
 
   useEffect(() => {

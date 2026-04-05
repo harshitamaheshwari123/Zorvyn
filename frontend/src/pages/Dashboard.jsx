@@ -26,7 +26,7 @@ export default function Dashboard() {
   const [recordsError, setRecordsError] = useState("");
   const [auditLogs, setAuditLogs] = useState([]);
   const [auditLoading, setAuditLoading] = useState(true);
-  /** Admin-only: switch dashboard aggregates to whole organization */
+
   const [adminOrgScope, setAdminOrgScope] = useState(false);
   const filtersRef = useRef(filters);
   filtersRef.current = filters;

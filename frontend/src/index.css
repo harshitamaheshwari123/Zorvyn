@@ -1,4 +1,4 @@
-/* Design tokens — finance / SaaS */
+
 :root {
   --font: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
   --bg: #f0f4f8;
@@ -65,7 +65,7 @@ textarea {
   font: inherit;
 }
 
-/* ——— Layout ——— */
+
 .layout {
   min-height: 100vh;
   display: flex;
@@ -166,7 +166,6 @@ textarea {
   width: 100%;
 }
 
-/* ——— Auth pages ——— */
 .auth-shell {
   min-height: 100vh;
   display: grid;
@@ -240,7 +239,6 @@ textarea {
   font-size: 0.9375rem;
 }
 
-/* ——— Page structure ——— */
 .page-head {
   margin-bottom: 1.75rem;
 }
@@ -260,7 +258,6 @@ textarea {
   max-width: 52ch;
 }
 
-/* ——— Cards ——— */
 .card {
   background: var(--surface);
   border-radius: var(--radius);
@@ -332,7 +329,6 @@ textarea {
   letter-spacing: -0.02em;
 }
 
-/* ——— Profile ——— */
 .profile-grid {
   display: grid;
   gap: 1rem;
@@ -422,7 +418,6 @@ textarea {
   color: #991b1b;
 }
 
-/* ——— Buttons ——— */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -553,7 +548,6 @@ textarea {
   color: var(--primary-hover);
 }
 
-/* ——— Modal ——— */
 .modal-backdrop {
   position: fixed;
   inset: 0;

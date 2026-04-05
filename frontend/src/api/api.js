@@ -1,9 +1,12 @@
 import axios from "axios";
 
-// new change
+const defaultBase =
+  import.meta.env.MODE === "production"
+    ? "https://zorvyn-2-78z1.onrender.com/api"
+    : "http://localhost:5000/api";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: import.meta.env.VITE_API_URL || defaultBase,
 });
 
 API.interceptors.request.use((req) => {
