@@ -32,12 +32,12 @@ Create `backend/.env`:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/finance-dashboard
+MONGO_URI=mongodb+srv://harshitamaheshwari762:X3qGegAZCezPLios@cluster0.3auaakl.mongodb.net/Harshita?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=change-this-to-a-long-random-string
 ```
 
 ```bash
-npm run dev
+npm start
 ```
 
 API base: `http://localhost:5000/api`
