@@ -30,12 +30,6 @@ npm install
 
 Create `backend/.env`:
 
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://harshitamaheshwari762:X3qGegAZCezPLios@cluster0.3auaakl.mongodb.net/Harshita?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=change-this-to-a-long-random-string
-```
-
 ```bash
 npm start
 ```
