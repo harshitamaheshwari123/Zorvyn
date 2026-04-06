@@ -25,7 +25,7 @@ app.use("/api/audit-logs", auditRoutes);
 
 
 app.get("/", (req, res) => {
-  res.send("Zorvyn API is running 🚀");
+  res.send("Zorvyn API is running");
 });
 
 

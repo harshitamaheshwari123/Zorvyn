@@ -36,7 +36,6 @@ export default function Profile() {
           if (raw) {
             const cached = JSON.parse(raw);
             setName(cached.name ?? "");
-            // Keep showing signed-in user from login; only warn if refresh truly failed
             if (!cached.email) {
               setMessage({
                 type: "error",

@@ -1,4 +1,4 @@
-# Environment — never commit secrets (MongoDB URI, JWT, passwords)
+
 .env
 .env.local
 .env.*.local
